@@ -2,7 +2,7 @@ use strict;
 use warnings;
 use ExtUtils::MakeMaker;
 
-# $Id$
+# $Id: Makefile.PL 345 2008-05-10 00:02:20Z davidp $
 
 my @license =
     do {

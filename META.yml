@@ -1,11 +1,11 @@
 --- #YAML:1.0
 name:                WWW-Comic-Plugin-f8d
-version:             0.01
+version:             0.02
 abstract:            WWW::Comic plugin to fetch f8d comic
 license:             perl
 author:              
     - David Precious <davidp@preshweb.co.uk>
-generated_by:        ExtUtils::MakeMaker version 6.44
+generated_by:        ExtUtils::MakeMaker version 6.42
 distribution_type:   module
 requires:     
     Test::More:                    0

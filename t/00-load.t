@@ -3,7 +3,7 @@
 use Test::More tests => 1;
 
 BEGIN {
-	use_ok( 'WWW::Comic::Plugin::XKCD' );
+	use_ok( 'WWW::Comic::Plugin::f8d' );
 }
 
-diag( "Testing WWW::Comic::Plugin::XKCD $WWW::Comic::Plugin::XKCD::VERSION, Perl $], $^X" );
+diag( "Testing WWW::Comic::Plugin::f8d $WWW::Comic::Plugin::f8d::VERSION, Perl $], $^X" );

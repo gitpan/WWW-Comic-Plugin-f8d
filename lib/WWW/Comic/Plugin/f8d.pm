@@ -3,14 +3,13 @@ package WWW::Comic::Plugin::f8d;
 use warnings;
 use strict;
 use Carp;
-use XML::Simple;
 
 use vars qw($VERSION @ISA %COMICS);
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 @ISA = qw(WWW::Comic::Plugin);
 %COMICS = (f8d => 'f8d - minimalist and esoteric webcomic');
 
-# $Id: f8d.pm 343 2008-05-09 23:53:23Z davidp $
+# $Id: f8d.pm 733 2009-09-17 13:31:20Z davidp $
 
 =head1 NAME
 
@@ -145,7 +144,7 @@ To Nicola Worthington (NICOLAW) for writing WWW::Comic
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 David Precious, all rights reserved.
+Copyright 2008-09 David Precious, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
